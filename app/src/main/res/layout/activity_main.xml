@@ -8,29 +8,60 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="243dp"
+        android:layout_height="229dp"
         android:contentDescription="foto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396"
+        app:layout_constraintVertical_bias="0.378"
         app:srcCompat="@drawable/ic_get_start_timitory" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="274dp"
-        android:layout_height="76dp"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
         android:fontFamily="@font/nunito_bold"
         android:text="Monitory Membantu Anda Mengontrol HP Anak"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.424" />
+        app:layout_constraintVertical_bias="0.427" />
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="124dp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/btn_awal"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginBottom="46dp"
+            android:background="@drawable/buttonbulet"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Mulai"
+            android:textAllCaps="false"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
