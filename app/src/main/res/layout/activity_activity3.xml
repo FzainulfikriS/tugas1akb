@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity3">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="278dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Nama Panggilan Kamu"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Nama Panggilan Kamu" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="278dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="224dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Umur Kamu"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Umur Kamu" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:fontFamily="@font/nunito_bold"
+        android:hint="contoh : pukis"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <EditText
+        android:id="@+id/umur"
+        android:layout_width="277dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:fontFamily="@font/nunito_bold"
+        android:hint="contoh : 21"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <Button
+        android:id="@+id/btnselanjutnya"
+        android:layout_width="195dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/buttonbulet"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Selanjutnya"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
