@@ -25,3 +25,7 @@ class MainActivity : AppCompatActivity() {
 *  nim   : 10117165
 *  kelas : IF5
 * */
+//3 april > membuat project dan tampilan halaman 1 dan 2
+//4 april > beres membuat halaman 1 dan 2
+//5 april > membereskan halaman 3 dan 4, mengambil data dari halaman 3 dan melakukan validasi
+//6 april > mengecek kembali tugas, dan memberi validasi pada halaman 2

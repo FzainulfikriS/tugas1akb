@@ -13,8 +13,15 @@ class activity2 : AppCompatActivity() {
         setContentView(R.layout.activity_activity2)
 
         btnmasuk.setOnClickListener(){
-            val intent = Intent(this, activity3::class.java)
-            startActivity(intent)
+            val form1 = form.text.toString()
+
+            if (form1.isEmpty()){
+                form.setError("silahkan isi kode keluarga!")
+            }
+            else {
+                val intent = Intent(this, activity3::class.java)
+                startActivity(intent)
+            }
         }
     }
 }
